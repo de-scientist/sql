@@ -1,6 +1,7 @@
 --create tables for database school
 USE School;
 
+
 --verify the current database
 SELECT DB_NAME() AS CurrentDatabase;
 
