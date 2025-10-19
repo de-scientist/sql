@@ -4,6 +4,7 @@ USE School;
 --check current database
 SELECT DB_NAME() AS CURRENTDATABASE;
 
+--insert data into the majors table
 INSERT INTO Majors (MajorID, MajorTitle) 
 VALUES 
 ('M001', 'Computer Science'),
