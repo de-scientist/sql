@@ -5,6 +5,7 @@ USE School;
 --verify the current database
 SELECT DB_NAME() AS CurrentDatabase;
 
+--create Departments table
 CREATE TABLE Departments (
 	DepartmentID NVARCHAR(20) PRIMARY KEY,
 	DepartmentTitle NVARCHAR(100) NOT NULL
