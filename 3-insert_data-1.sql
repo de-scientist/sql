@@ -21,6 +21,7 @@ VALUES
 --check inserted data
 SELECT * FROM Majors;
 
+--insert data into the departments table
 INSERT INTO Departments VALUES
 ('DPT001', 'Department of Computer Science'),
 ('DPT002', 'Department of Information Technology'),
