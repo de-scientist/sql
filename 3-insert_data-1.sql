@@ -1,6 +1,7 @@
 --use the school database
 USE School;
 
+--check current database
 SELECT DB_NAME() AS CURRENTDATABASE;
 
 INSERT INTO Majors (MajorID, MajorTitle) 
