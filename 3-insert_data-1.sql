@@ -1,3 +1,4 @@
+--use the school database
 USE School;
 
 SELECT DB_NAME() AS CURRENTDATABASE;
