@@ -21,6 +21,7 @@ CREATE TABLE Teachers (
 	DepartmentID  NVARCHAR(20) FOREIGN KEY REFERENCES DEPARTMENTS(DepartmentID)
 );
 
+--create Majors table
 CREATE TABLE Majors (
 	MajorID  NVARCHAR(20) PRIMARY KEY,
 	MajorTitle NVARCHAR(100) NOT NULL
