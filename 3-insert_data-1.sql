@@ -34,4 +34,5 @@ INSERT INTO Departments VALUES
 ('DPT009', 'Department of Human Resource'),
 ('DPT010', 'Department of Physics and Thermodynamics');
 
+--check inserted data in departments table
 SELECT * FROM Departments;
