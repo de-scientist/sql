@@ -18,6 +18,7 @@ VALUES
 ('M009', 'Aeronautical Engineering'),
 ('M010', 'Thermodynamics');
 
+--check inserted data
 SELECT * FROM Majors;
 
 INSERT INTO Departments VALUES
