@@ -11,7 +11,7 @@ CREATE TABLE Departments (
 	DepartmentTitle NVARCHAR(100) NOT NULL
 );
 
-
+--create Teachers table
 CREATE TABLE Teachers (
 	Id  NVARCHAR(20) PRIMARY KEY,
 	FirstName  NVARCHAR(50) NOT NULL,
