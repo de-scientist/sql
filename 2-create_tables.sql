@@ -27,6 +27,7 @@ CREATE TABLE Majors (
 	MajorTitle NVARCHAR(100) NOT NULL
 );
 
+--create Students table
 CREATE TABLE Students (
 	StudentID NVARCHAR(20) PRIMARY KEY,
 	FirstName NVARCHAR(50) NOT NULL,
